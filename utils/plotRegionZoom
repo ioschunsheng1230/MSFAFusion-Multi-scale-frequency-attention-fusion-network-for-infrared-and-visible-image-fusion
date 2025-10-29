@@ -1,15 +1,6 @@
-# -*- coding: utf-8 -*-
-"""
-@Time ： 2022/7/20 13:51
-@Auth ： zxc (https://github.com/linklist2)
-@File ：plotRegionZoom.py
-@IDE ：PyCharm
-@Function ：
-"""
 
 import cv2
 import numpy as np
-
 
 def labelImg(img_path: str, label: list, save=False, color='red', line_width=2):
     """
