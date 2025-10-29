@@ -10,7 +10,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='PyTorch PIAFusion')
     parser.add_argument('--h5_path', metavar='DIR', default='./data_MSRS.h5',
                         help='path to dataset')  
-    parser.add_argument('--msrs_root_path', metavar='DIR', default='/root/autodl-tmp/zxy/datasets/msrs_train',
+    parser.add_argument('--msrs_root_path', metavar='DIR', default='./datasets/msrs_train',
                         help='path to dataset') 
     args = parser.parse_args()
 
