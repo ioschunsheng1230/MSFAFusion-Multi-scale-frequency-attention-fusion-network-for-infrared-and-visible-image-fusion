@@ -16,8 +16,6 @@ from models.losses import corr_loss
 
 
 def init_seeds(seed=0):
-    # Initialize random number generator (RNG) seeds https://pytorch.org/docs/stable/notes/randomness.html
-    # cudnn seed 0 settings are slower and more reproducible, else faster and less reproducible
     import torch.backends.cudnn as cudnn
     random.seed(seed)
     np.random.seed(seed)
